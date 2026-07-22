@@ -1,0 +1,2 @@
+trades,win_rate_pct,avg_r,median_r,total_r,best_r,worst_r,partial_hit_pct,stop_exit_pct,version,raw_setups,scored_setups,min_score,trigger_atr_buffer,stop_atr_buffer,max_risk_pct,hold_days,partial_r,fade_filter
+13,84.62,0.464,0.398,6.035,1.346,-0.076,38.46,0.0,relaxed_winrate_fade20,5330,664,55,0.02,0.1,35.0,3,0.5,-20.0

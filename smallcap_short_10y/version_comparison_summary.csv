@@ -1,0 +1,5 @@
+trades,win_rate_pct,avg_r,median_r,total_r,best_r,worst_r,partial_hit_pct,stop_exit_pct,version,raw_setups,scored_setups,min_score,trigger_atr_buffer,stop_atr_buffer,max_risk_pct,hold_days,partial_r,fade_filter
+179,59.78,0.077,0.183,13.801,1.921,-1.0,24.02,25.7,profit_model,5226,2004,55,0.02,0.1,35.0,5,1.0,
+24,62.5,0.135,0.231,3.239,1.392,-1.0,25.0,20.83,a_grade_profit_subset,5317,569,75,0.02,0.1,35.0,5,1.0,
+13,84.62,0.464,0.398,6.035,1.346,-0.076,38.46,0.0,relaxed_winrate_fade20,5330,664,55,0.02,0.1,35.0,3,0.5,-20.0
+54,66.67,0.215,0.275,11.594,1.346,-1.0,24.07,11.11,relaxed_winrate_fade15,5314,884,55,0.02,0.1,35.0,3,0.5,-15.0
