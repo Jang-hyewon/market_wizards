@@ -1,308 +1,308 @@
-# Market Wizards: The Next Generation Strategy Filters
+# Market Wizards: The Next Generation 전략 필터 정리
 
-Created: 2026-07-25
+작성일: 2026-07-25
 
-Purpose: summarize the four trader styles selected from *Unknown Market Wizards / Market Wizards: The Next Generation* research and translate them into practical strategy-filter ideas.
+목적: *Unknown Market Wizards / Market Wizards: The Next Generation* 리서치에서 고른 4명의 트레이더 스타일을 정리하고, 이를 실제 전략 필터 아이디어로 바꾸기 위한 메모입니다.
 
-Important: this is an educational research memo, not investment advice. The filters below are simplified interpretations for systematic research. The actual traders use discretion, experience, risk control, and market context that cannot be fully captured by simple rules.
+중요: 이 문서는 교육용 리서치 메모이며 투자 조언이 아닙니다. 아래 필터들은 시스템 리서치를 위한 단순화된 해석입니다. 실제 트레이더들은 재량 판단, 경험, 리스크 관리, 시장 맥락을 함께 사용하며, 이는 단순 규칙만으로 완전히 재현하기 어렵습니다.
 
-## Selected Traders
+## 선정한 트레이더
 
-We excluded:
+이번 정리에서는 아래 유형은 제외했습니다.
 
-- Pure small-cap short specialists.
-- Pure option-selling specialists.
+- 순수 소형주 공매도 전문 트레이더.
+- 순수 옵션매도 전문 트레이더.
 
-The remaining four research candidates:
+남은 4명의 리서치 후보는 다음과 같습니다.
 
-| trader | market | core style | systematic fit |
+| 트레이더 | 시장 | 핵심 스타일 | 시스템화 적합도 |
 | --- | --- | --- | --- |
-| Jason Berry | Futures | Intraday futures trading around volatility, momentum, timing, and tight risk | High |
-| Lance Breitstein | Equities | Catalyst-driven momentum, relative strength, tape reading, and intraday reaction | Medium-high |
-| Kelvin Chiu | Commodities / macro | Fundamental commodity themes combined with price confirmation and risk control | Medium |
-| Rick Bandazian Jr. | Event-driven equities | Merger arbitrage and deal-risk/event-driven positioning | Medium |
+| Jason Berry | 선물 | 변동성, 모멘텀, 시간대, 짧은 손절을 활용한 장중 선물 트레이딩 | 높음 |
+| Lance Breitstein | 주식 | 촉매, 모멘텀, 상대강도, 테이프 리딩, 장중 반응 중심 주식 트레이딩 | 중상 |
+| Kelvin Chiu | 원자재 / 매크로 | 원자재 펀더멘탈 테마에 가격 확인과 리스크 관리를 결합 | 중간 |
+| Rick Bandazian Jr. | 이벤트 주식 | 합병 차익거래와 딜 리스크 기반 이벤트 드리븐 포지션 | 중간 |
 
 ## 1. Jason Berry
 
-### Plain-English Summary
+### 쉽게 설명하면
 
-Jason's style is closest to short-term futures trading. He looks for liquid futures markets where price is already moving, then waits for a clean intraday setup with defined risk. The main idea is not to predict a huge move, but to repeatedly take trades where the market gives a favorable short-term opportunity and losses can be kept small.
+Jason의 스타일은 단기 선물 트레이딩에 가장 가깝습니다. 유동성이 풍부하고 이미 움직임이 생긴 선물 시장을 고른 뒤, 장중에 리스크가 명확한 깔끔한 진입 자리를 기다립니다. 핵심은 큰 방향을 예언하는 것이 아니라, 손실을 작게 제한할 수 있는 짧은 기회를 반복적으로 잡는 것입니다.
 
-### Strategy DNA
+### 전략 DNA
 
-- Liquid futures only.
-- Intraday focus.
-- Directional momentum or reversal setups.
-- Time-of-day awareness.
-- Small predefined losses.
-- Fast trade management.
-- Avoid forcing trades when conditions are unclear.
+- 유동성 높은 선물만 거래.
+- 장중 트레이딩 중심.
+- 방향성 모멘텀 또는 실패한 돌파/반전 셋업.
+- 시간대 인식.
+- 미리 정해둔 작은 손실.
+- 빠른 포지션 관리.
+- 조건이 애매하면 억지로 거래하지 않음.
 
-### Filter Ideas
+### 필터 아이디어
 
-Candidate markets:
+후보 시장:
 
-- ES: S&P 500 futures.
-- NQ: Nasdaq futures.
-- CL: crude oil futures.
-- ZB / ZN: Treasury futures.
+- ES: S&P 500 선물.
+- NQ: 나스닥 선물.
+- CL: 원유 선물.
+- ZB / ZN: 미국 국채 선물.
 
-Core filters:
+핵심 필터:
 
-- Market is liquid during regular active session.
-- Volatility is above a minimum threshold.
-- Price shows clear directional pressure or failed breakout.
-- Entry is near a defined level, not in the middle of noise.
-- Stop is close enough to keep risk controlled.
-- Trade is skipped if spread, volatility, or signal quality is poor.
+- 정규 활성 시간대에 유동성이 충분해야 함.
+- 변동성이 최소 기준 이상이어야 함.
+- 가격이 뚜렷한 방향 압력 또는 실패한 돌파를 보여야 함.
+- 진입은 애매한 중간 가격이 아니라 명확한 기준 레벨 근처여야 함.
+- 손절 거리가 가까워 리스크를 통제할 수 있어야 함.
+- 스프레드, 변동성, 신호 품질이 나쁘면 거래를 건너뜀.
 
-Backtest version already explored:
+이미 테스트한 백테스트 버전:
 
-- 5-minute Yahoo futures data.
-- ES and NQ performed best in the initial 60-day test.
-- Later version added partial profit, breakeven move, and runner exit.
+- Yahoo 5분봉 선물 데이터 사용.
+- 초기 60일 테스트에서는 ES와 NQ가 가장 나은 성과를 보였음.
+- 이후 버전에서는 부분익절, 본절 이동, 러너 청산을 추가함.
 
-### Possible Automation
+### 자동화 가능성
 
-Best fit for automation among the four.
+4명 중 자동화 적합도가 가장 높습니다.
 
-Required data:
+필요한 데이터:
 
-- Real-time futures data.
-- Minute bars or tick data.
-- Broker API.
-- Session calendar.
-- Volatility filter.
-- Stop/target/OCO order support.
+- 실시간 선물 데이터.
+- 분봉 또는 틱 데이터.
+- 브로커 API.
+- 선물 세션 캘린더.
+- 변동성 필터.
+- 손절/목표가/OCO 주문 지원.
 
 ## 2. Lance Breitstein
 
-### Plain-English Summary
+### 쉽게 설명하면
 
-Lance's style is equity trading based on catalysts and market reaction. The key is not simply "good news means buy" or "bad news means short." The important part is how the stock reacts compared with expectations, volume, the overall market, and similar stocks. Strong stocks that hold up after good catalysts can become long candidates. Weak stocks that fail after excitement can become short candidates.
+Lance의 스타일은 주식의 촉매와 시장 반응을 기반으로 합니다. 핵심은 단순히 “좋은 뉴스면 매수”, “나쁜 뉴스면 매도”가 아닙니다. 중요한 것은 주가가 기대, 거래량, 전체 시장, 유사 종목과 비교해 어떻게 반응하는지입니다. 좋은 촉매 뒤에도 강하게 버티는 종목은 롱 후보가 되고, 기대감 뒤에 무너지는 종목은 숏 후보가 됩니다.
 
-### Strategy DNA
+### 전략 DNA
 
-- Catalyst first.
-- Relative strength or relative weakness.
-- Volume expansion.
-- Intraday tape and reaction.
-- Focus on stocks where other traders are paying attention.
-- Cut quickly when the expected reaction does not appear.
+- 촉매가 먼저.
+- 상대강도 또는 상대약세.
+- 거래량 증가.
+- 장중 테이프와 가격 반응.
+- 다른 트레이더들의 관심이 몰리는 종목에 집중.
+- 기대한 반응이 나오지 않으면 빠르게 손절.
 
-### Strategy Filter
+### 전략 필터
 
-Candidate stocks:
+후보 종목:
 
-- Liquid U.S. equities.
-- Usually active large-cap or mid-cap names for cleaner execution.
-- Smaller names can be used only when liquidity is acceptable.
+- 유동성 있는 미국 주식.
+- 체결이 깔끔한 대형주 또는 중형주가 보통 더 적합.
+- 소형주는 유동성이 충분할 때만 사용.
 
-Core long filters:
+롱 필터:
 
-- Fresh catalyst: earnings, guidance, analyst action, product news, sector news.
-- Gap or strong early move.
-- Relative strength versus market and sector.
-- Volume above normal.
-- Holds VWAP or key opening range.
-- Pullbacks are bought instead of collapsing.
+- 신규 촉매: 실적, 가이던스, 애널리스트 의견, 제품 뉴스, 섹터 뉴스.
+- 갭 상승 또는 초반 강한 움직임.
+- 시장과 섹터 대비 상대강도.
+- 평소보다 높은 거래량.
+- VWAP 또는 오프닝 레인지를 지지.
+- 눌림에서 무너지지 않고 매수세가 들어옴.
 
-Core short filters:
+숏 필터:
 
-- Bad reaction after good news.
-- Good news fails to hold.
-- Stock loses VWAP.
-- Breaks opening range low.
-- Weak versus market and peers.
-- Volume confirms selling pressure.
+- 좋은 뉴스에도 반응이 나쁨.
+- 호재 이후 상승분을 지키지 못함.
+- VWAP 이탈.
+- 오프닝 레인지 저가 이탈.
+- 시장과 동종 종목 대비 약함.
+- 거래량이 매도 압력을 확인해줌.
 
-Backtest version already explored:
+이미 테스트한 백테스트 버전:
 
-- Yahoo 60-day equity test on liquid large-cap names.
-- First pass was weak overall, but TSLA and META showed better behavior in limited tests.
-- Lance's style likely needs better catalyst/news tagging and intraday data than simple price filters.
+- Yahoo 60일 주식 데이터로 유동성 높은 대형주 테스트.
+- 전체 결과는 약했지만, 제한된 테스트에서는 TSLA와 META가 상대적으로 나은 모습을 보임.
+- Lance 스타일은 단순 가격 필터보다 촉매/뉴스 태깅과 장중 데이터가 훨씬 중요함.
 
-### Possible Automation
+### 자동화 가능성
 
-Partially automatable.
+부분적으로 자동화 가능합니다.
 
-Required data:
+필요한 데이터:
 
-- Real-time prices.
-- Intraday VWAP and opening range.
-- Sector/peer relative strength.
-- News/catalyst feed.
-- Earnings calendar.
-- Analyst/news classification.
-- Manual review layer is strongly recommended.
+- 실시간 가격.
+- 장중 VWAP과 오프닝 레인지.
+- 섹터/동종 종목 대비 상대강도.
+- 뉴스/촉매 데이터 피드.
+- 실적 발표 캘린더.
+- 애널리스트/뉴스 분류.
+- 수동 검토 레이어 권장.
 
 ## 3. Kelvin Chiu
 
-### Plain-English Summary
+### 쉽게 설명하면
 
-Kelvin's style is more macro and commodity-oriented. The basic idea is to understand a fundamental pressure in a market, such as supply/demand imbalance, inventory stress, weather impact, policy change, or macro flow, and then wait for price to confirm that the thesis is starting to work.
+Kelvin의 스타일은 매크로와 원자재에 더 가깝습니다. 핵심은 어떤 시장에 수급 불균형, 재고 문제, 날씨 영향, 정책 변화, 매크로 자금 흐름 같은 펀더멘탈 압력이 있는지 이해한 뒤, 가격이 그 가설을 확인해줄 때 진입하는 것입니다.
 
-### Strategy DNA
+### 전략 DNA
 
-- Commodity and macro themes.
-- Fundamental supply/demand view.
-- Patience before entry.
-- Price confirmation.
-- Risk control when the thesis is wrong.
-- Avoid trading only from opinion.
+- 원자재와 매크로 테마.
+- 펀더멘탈 수급 관점.
+- 진입 전 기다림.
+- 가격 확인.
+- 가설이 틀렸을 때 리스크 관리.
+- 의견만으로 거래하지 않음.
 
-### Strategy Filter
+### 전략 필터
 
-Candidate markets:
+후보 시장:
 
-- Crude oil.
-- Natural gas.
-- Agricultural commodities.
-- Metals.
-- Commodity-linked ETFs or futures.
+- 원유.
+- 천연가스.
+- 농산물.
+- 금속.
+- 원자재 관련 ETF 또는 선물.
 
-Core filters:
+핵심 필터:
 
-- Fundamental theme exists.
-- Market is near an important price level.
-- Trend or breakout confirms the thesis.
-- Volatility is acceptable for the account size.
-- Stop can be placed at a logical invalidation point.
-- Position size is adjusted to contract volatility.
+- 펀더멘탈 테마가 있어야 함.
+- 시장이 중요한 가격 레벨 근처에 있어야 함.
+- 추세 또는 돌파가 가설을 확인해야 함.
+- 계좌 규모 대비 변동성이 감당 가능해야 함.
+- 손절 위치가 논리적으로 “가설 무효화 지점”이어야 함.
+- 계약별 변동성에 맞춰 포지션 크기를 조정해야 함.
 
-Example systematic translation:
+시스템화 예시:
 
-- Identify commodity trend regime.
-- Confirm with moving average slope or breakout.
-- Require volatility-adjusted stop.
-- Enter only when price confirms thesis direction.
-- Exit when trend fails or risk limit is hit.
+- 원자재 추세 국면 식별.
+- 이동평균 기울기 또는 돌파로 확인.
+- 변동성 기준 손절 요구.
+- 가격이 가설 방향을 확인할 때만 진입.
+- 추세가 깨지거나 리스크 한도에 닿으면 청산.
 
-### Possible Automation
+### 자동화 가능성
 
-Medium fit.
+중간 정도입니다.
 
-Required data:
+필요한 데이터:
 
-- Futures or ETF price data.
-- Commitment of Traders data if used.
-- Inventory reports.
-- Calendar of commodity reports.
-- Macro/event calendar.
-- Volatility-adjusted sizing.
+- 선물 또는 ETF 가격 데이터.
+- 필요하다면 COT 데이터.
+- 재고 보고서.
+- 원자재 보고서 일정.
+- 매크로/이벤트 캘린더.
+- 변동성 기반 포지션 사이징.
 
 ## 4. Rick Bandazian Jr.
 
-### Plain-English Summary
+### 쉽게 설명하면
 
-Rick's style is event-driven, especially merger arbitrage. Instead of betting mainly on chart patterns, the trade depends on whether a corporate event will complete as expected. If a company is being acquired, the stock may trade below the deal price. The trader studies whether the deal will close, how long it may take, and what the downside is if it breaks.
+Rick의 스타일은 이벤트 드리븐, 특히 합병 차익거래에 가깝습니다. 차트 패턴만 보고 베팅하는 것이 아니라, 기업 이벤트가 실제로 완료될 가능성에 베팅합니다. 어떤 회사가 인수 대상이 되면 주가는 딜 가격보다 낮게 거래될 수 있습니다. 트레이더는 그 딜이 성사될 가능성, 걸리는 시간, 실패했을 때 하락 위험을 분석합니다.
 
-### Strategy DNA
+### 전략 DNA
 
-- Event-driven equity trading.
-- Deal spread analysis.
-- Probability and downside estimation.
-- Legal/regulatory risk.
-- Time-to-close matters.
-- Position sizing depends on deal risk.
+- 이벤트 드리븐 주식 트레이딩.
+- 딜 스프레드 분석.
+- 확률과 하락 위험 추정.
+- 법률/규제 리스크.
+- 딜 완료까지 걸리는 시간이 중요.
+- 포지션 크기는 딜 리스크에 따라 결정.
 
-### Strategy Filter
+### 전략 필터
 
-Candidate stocks:
+후보 종목:
 
-- Announced mergers.
-- Tender offers.
-- Acquisition targets.
-- Special situations with clear event terms.
+- 공식 발표된 합병.
+- 공개매수.
+- 인수 대상 기업.
+- 조건이 명확한 특수상황.
 
-Core filters:
+핵심 필터:
 
-- Confirmed announced deal.
-- Clear deal price.
-- Current price below deal price.
-- Spread is large enough to compensate for risk.
-- Expected close date is known or estimable.
-- Regulatory risk is acceptable.
-- Financing risk is acceptable.
-- Downside if deal breaks is estimated.
+- 공식 발표된 딜이어야 함.
+- 딜 가격이 명확해야 함.
+- 현재 가격이 딜 가격보다 낮아야 함.
+- 스프레드가 리스크를 보상할 만큼 충분해야 함.
+- 예상 완료일을 알 수 있거나 추정 가능해야 함.
+- 규제 리스크가 감당 가능해야 함.
+- 자금 조달 리스크가 감당 가능해야 함.
+- 딜 실패 시 하락 위험을 추정해야 함.
 
-Example metrics:
+예시 지표:
 
-- Deal spread percentage.
-- Annualized spread.
-- Time to expected close.
-- Break price downside.
-- Risk-adjusted expected value.
+- 딜 스프레드.
+- 연율화 스프레드.
+- 예상 완료까지 남은 시간.
+- 딜 실패 시 예상 하락 가격.
+- 리스크 조정 기대값.
 
-### Possible Automation
+### 자동화 가능성
 
-Medium fit for screening, lower fit for full automation.
+스크리닝 자동화는 중간 정도 가능하지만, 완전 자동매매 적합도는 낮습니다.
 
-Required data:
+필요한 데이터:
 
-- M&A announcement feed.
-- SEC filings.
-- Deal terms.
-- Current price.
-- Expected close date.
-- Regulatory status.
-- Financing status.
-- Manual legal/news review.
+- M&A 발표 데이터.
+- SEC 공시.
+- 딜 조건.
+- 현재 주가.
+- 예상 완료일.
+- 규제 진행 상태.
+- 자금 조달 상태.
+- 수동 법률/뉴스 검토.
 
-## Comparison
+## 비교
 
-| trader | best use | weakest point | best next step |
+| 트레이더 | 가장 적합한 용도 | 약한 지점 | 다음 단계 |
 | --- | --- | --- | --- |
-| Jason Berry | Intraday futures system | Needs good intraday data | Improve ES/NQ test with better data and realistic execution |
-| Lance Breitstein | Catalyst equity scanner | Needs news classification and discretionary context | Add catalyst/news feed and VWAP/opening range filters |
-| Kelvin Chiu | Macro/commodity swing filter | Fundamental data is harder to automate | Build commodity regime dashboard |
-| Rick Bandazian Jr. | Event-driven deal scanner | Legal/deal risk is hard to automate | Build merger spread watchlist, not auto-execution |
+| Jason Berry | 장중 선물 시스템 | 좋은 장중 데이터 필요 | ES/NQ를 더 좋은 데이터와 현실적 체결 조건으로 개선 |
+| Lance Breitstein | 촉매 기반 주식 스캐너 | 뉴스 분류와 재량 맥락 필요 | 촉매/뉴스 피드와 VWAP/오프닝 레인지 필터 추가 |
+| Kelvin Chiu | 매크로/원자재 스윙 필터 | 펀더멘탈 데이터 자동화가 어려움 | 원자재 국면 대시보드 구축 |
+| Rick Bandazian Jr. | 이벤트/딜 스캐너 | 법률·딜 리스크 자동화가 어려움 | 자동매매보다 합병 스프레드 watchlist 구축 |
 
-## Recommended Research Order
+## 추천 리서치 순서
 
 1. Jason Berry
-   - Most systematic.
-   - Futures are liquid.
-   - Clear risk and execution logic.
+   - 가장 시스템화하기 쉬움.
+   - 선물 시장은 유동성이 좋음.
+   - 리스크와 실행 로직이 명확함.
 
 2. Lance Breitstein
-   - Good candidate for scanners.
-   - Needs better catalyst data.
-   - Useful for both long and short equity setups.
+   - 스캐너로 만들기 좋음.
+   - 더 좋은 촉매 데이터가 필요함.
+   - 롱/숏 주식 셋업 모두에 활용 가능.
 
-3. Small-cap parabolic short adaptation
-   - Not one of the four remaining traders, but related to the user's preferred short strategy.
-   - Already tested with 2-year and 10-year filters.
+3. 소형주 과열 숏 변형 전략
+   - 위 4명 중 남은 트레이더의 직접 전략은 아니지만, 사용자가 선호한 숏 전략과 연결됨.
+   - 이미 2년, 10년 필터 테스트를 완료함.
 
 4. Kelvin Chiu
-   - Build after futures/stock filters because it needs fundamental commodity data.
+   - 원자재 펀더멘탈 데이터가 필요하므로 선물/주식 필터 이후 구축.
 
 5. Rick Bandazian Jr.
-   - Best as a watchlist and research dashboard, not direct automated trading.
+   - 직접 자동매매보다 watchlist와 리서치 대시보드가 더 적합.
 
-## Current Project Status
+## 현재 프로젝트 상태
 
-Completed research files:
+완료된 리서치 파일:
 
 - `smallcap_short_10y_all_filter_cases.md`
 - `smallcap_short_10y_backtest.md`
 - `smallcap_short_high_winrate_filters_10y.md`
 - `compare_smallcap_short_versions_10y.py`
 
-Current best-developed strategy:
+현재 가장 많이 개발된 전략:
 
-- Small-cap parabolic short filter.
-- 10-year test completed.
-- `fade15` works better as a watchlist.
-- `fade20` is stricter and had the highest win rate, but sample size is small.
+- 소형주 과열 숏 필터.
+- 10년 테스트 완료.
+- `fade15`는 watchlist 필터로 더 적합.
+- `fade20`은 더 엄격하고 승률이 가장 높았지만 표본 수가 작음.
 
-Next recommended implementation:
+다음 추천 구현:
 
-- Add fundamental filters to the small-cap short model:
-  - net income loss,
-  - operating cash flow loss,
-  - low cash runway,
-  - dilution filings,
-  - going-concern language,
-  - recent S-1/S-3/424B/ATM/warrant filings.
+- 소형주 숏 모델에 펀더멘탈 필터 추가:
+  - 순이익 적자,
+  - 영업현금흐름 적자,
+  - 낮은 현금 runway,
+  - 희석성 공시,
+  - 계속기업 관련 문구,
+  - 최근 S-1/S-3/424B/ATM/warrant 공시.
 
