@@ -1,0 +1,17 @@
+strategy,symbol,trades,win_rate_pct,avg_r,median_r,total_r,best_r,worst_r
+Jason Berry,CL=F,50,36.0,-0.353,-1.0,-17.636,3.278,-1.0
+Jason Berry,ES=F,48,43.75,-0.089,-1.0,-4.276,5.233,-1.0
+Jason Berry,NQ=F,48,25.0,-0.557,-1.0,-26.728,3.772,-1.0
+Jason Berry,ZB=F,49,32.65,-0.447,-1.0,-21.909,2.123,-1.0
+Jason Berry,ZN=F,49,26.53,-0.519,-1.0,-25.447,2.167,-1.0
+Lance Breitstein,AAPL,5,0.0,-0.889,-1.0,-4.444,-0.444,-1.0
+Lance Breitstein,AMD,17,52.94,-0.072,0.04,-1.225,1.256,-1.0
+Lance Breitstein,AMZN,6,100.0,0.619,0.5,3.716,1.328,0.171
+Lance Breitstein,AVGO,15,46.67,-0.103,-0.064,-1.541,1.126,-1.0
+Lance Breitstein,GOOGL,12,41.67,-0.244,-1.0,-2.933,1.39,-1.0
+Lance Breitstein,META,12,75.0,0.271,0.5,3.246,1.464,-1.0
+Lance Breitstein,MSFT,12,50.0,-0.073,-0.161,-0.876,1.53,-1.0
+Lance Breitstein,NFLX,5,60.0,0.44,0.423,2.201,1.444,-1.0
+Lance Breitstein,NVDA,10,80.0,0.558,0.623,5.577,1.464,-0.628
+Lance Breitstein,PLTR,5,60.0,0.47,0.979,2.35,1.442,-1.0
+Lance Breitstein,TSLA,9,55.56,0.13,0.354,1.167,1.291,-1.0
